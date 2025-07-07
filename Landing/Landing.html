@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <title>DevDo - To Do app designed for developers</title>
+</head>
+<body>
+    <div class="app-container">
+        <div class="text-center">
+            <h1 class="display-7">Dev-Do</h1>
+            <h3 class="font-weight-normal">A to do app designed for developers</h3>
+            <p class="lead">Stay organized and maintain productivity with this intuitive task list creator.</p>
+        </div>
+    <div class="container mt-5">
+        <button id="findOutMoreBtn" class="btn btn-primary">Find out more</button>
+    </div>
+    <div id="emailFormPopup" class="popup">
+        <div class="popup-content">
+            <h2>Get access to Dev-Do below</h2>
+            <form id="emailForm" class="form-inline justify-content-center">
+                <div class="form-group mx-sm-3 mb-2">
+                    <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+                </div>
+                <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
+            </form>
+            <span id="closePopup" class="close">&times;</span>
+        </div>
+    </div>  
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
